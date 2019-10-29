@@ -1,0 +1,103 @@
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+	width: 600px;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: auto;
+	margin-left: auto;
+	border: solid 3px #931420;
+	background-color: #fffded;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+h2 {
+	font-size: 170%;
+	color: #800000;
+}
+header{
+	background-image:linear-gradient(30deg, #f6bb73, #f6bb73, white, #f6bb73, #f6bb73);
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+}
+header h1{
+	border-bottom: solid 3px #931420;
+}
+h3{
+	font-size: 130%;
+	font-style: italic;
+}
+
+main h1{
+	font-size: 150%;
+	border-bottom: solid 3px #931420;
+	border-top: solid 3px #931420;
+	padding-top: .3em;
+	padding-bottom: .3em;
+}
+
+main h2 {
+	font-size: 130%;
+	color: #800000;
+	padding-top: .5em;
+	padding-bottom: .25em;
+}
+
+main h3{
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+
+a:hover{
+	font-style: italic;
+}
+
+footer p{
+	text-align: center;
+	background-color: #931420;
+	color: white;
+}
+
+.shadow{
+	text-shadow: 1px 1px #800000;
+}
+
+.names{
+	text-indent: 30px;
+}
+/* the styles for the header */
+header img {
+	float: left;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+/* the styles for the section */
+main {
+	clear: left;
+	padding-right: 30px;
+	padding-left: 30px;
+
+}
+main img{
+	padding-bottom: 1em;
+}
+main p{
+	padding-bottom: .5em;
+}
+main blockquote{
+	padding-right: 2em;
+	padding-left: 2em;
+}
+main ul{
+	padding-bottom: .25em;
+	padding-left: 1.25em;
+}
+main li{
+	padding-bottom: .35em;
+}
+
+/* the styles for the footer */
